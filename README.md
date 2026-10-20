@@ -247,16 +247,6 @@ Useful provider docs:
 - Vite on Vercel: https://vercel.com/docs/frameworks/frontend/vite
 - Vercel Hobby plan: https://vercel.com/docs/plans/hobby
 
-## 7. Judge demo walkthrough (90–120 seconds)
-
-1. **Set the context (10s):** “PharmaSignal doesn't summarise one article. It looks for a financial story across multiple public sources, and a human has to validate every finding.”
-2. **Choose the company and focus (10s):** Enter a Track D company and choose a research lens.
-3. **Run Live Research (20–30s):** Show retrieved source URLs and the discovery candidate. If network/provider setup is uncertain at the venue, use the clearly labelled Demo scan instead; never present synthetic demo fixtures as real research.
-4. **Challenge the signal (20s):** Open the counterargument and falsification condition. Explain what would make the system downgrade the claim.
-5. **Show human-in-the-loop (15s):** Add an analyst note and select **Need evidence**, **Reject**, or **Approve finding** after reviewing the source trail.
-6. **Export (10s):** Download the Markdown note or JSON audit output.
-
-**Do not claim the demo proves a real financial insight unless you have reviewed the original linked documents and validated the numbers yourself.** For the final hackathon test, confirm which assigned companies are in the organisers' Track D universe rather than relying on a hard-coded preset list.
 
 ## 8. API reference
 
@@ -280,7 +270,7 @@ Example research request:
 
 Allowed `focus` values: `auto`, `regulatory`, `business_model`, `geography`, `financial_quality`.
 
-## 9. Known MVP limitations (be transparent with judges)
+## 9. Known MVP limitations
 
 - **Demo mode is synthetic.** It validates the UI and workflow without inventing facts about a real company.
 - **Live analysis relies on search snippets.** It is not a complete annual-report parser; snippets may omit important context.
